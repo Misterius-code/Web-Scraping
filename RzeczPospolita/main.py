@@ -97,21 +97,11 @@ def download_pdf():
                 excel(articles_list)
 
 
-                   # if int(magazine_nr) < int(last_magazine):
-                    #    soup = BeautifulSoup(driver.page_source, "html.parser")
-
-
-
-                       #     articles_list.append([title, magazine_nr, text, link, source, author, dzial, img, date])
-                       #     i +=1
-                    # print(articles_list)
-                        #excel(articles_list)
 
 
 
 
 
-        #url = "http://archiwum.rp.pl" + soup.find("a", class_="pageListDateScrollRight")['href']
 
     driver.quit()
 
